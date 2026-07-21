@@ -41,6 +41,7 @@ export type PortfolioData = {
   email: string
   resumeUrl: string
   socialLinks: SocialLink[]
+  codingProfiles: SocialLink[]
   skillGroups: SkillGroup[]
   experience: Experience[]
   projects: Project[]
