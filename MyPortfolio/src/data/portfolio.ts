@@ -32,6 +32,7 @@ export const portfolio: PortfolioData = {
       title: 'SpendSmart — Full Stack Expense Tracker',
       description: 'Developed a comprehensive expense tracking platform with real-time budget monitoring',
       technologies: [ "MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Google OAuth"],
+      image: '/images/projects/spendsmart.png',
       liveUrl: 'https://spendsmart-inky-theta.vercel.app/',
       repoUrl: "https://github.com/ankurgangwar4575-tech/Expense-Tracker"
     },
@@ -39,6 +40,7 @@ export const portfolio: PortfolioData = {
       title: 'SmartCart - Customer Segmentation System',
       description: 'Built a machine learning pipeline to segment e-commerce customers based on purchasing behavior',
       technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+      image: '/images/projects/smartcart.png',
       liveUrl: 'https://smartcart-clustering.streamlit.app/',
       repoUrl: "https://github.com/ankurgangwar4575-tech/SmartCart-Clustering-System"
     },
@@ -46,6 +48,7 @@ export const portfolio: PortfolioData = {
       title: 'CreditWise - Loan Approval Prediction System',
       description: 'Developed a machine learning classification system to predict loan approvals from applicant data',
       technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+      image: '/images/projects/creditwise.png',
       liveUrl: 'https://loan-classifier.streamlit.app/',
       repoUrl: "https://github.com/ankurgangwar4575-tech/CreditWise-Loan-Approval-System"
     },

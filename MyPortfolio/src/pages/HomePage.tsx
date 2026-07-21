@@ -8,6 +8,7 @@ import { EducationCard } from "../components/ui/EducationCard";
 import { ProjectCard } from "../components/ui/ProjectCard";
 import { ScrollToTop } from "../components/ui/ScrollToTop";
 import { SectionHeading } from "../components/ui/SectionHeading";
+import { images } from "../assets/images";
 import { portfolio } from "../data/portfolio";
 
 export function HomePage() {
@@ -18,21 +19,30 @@ export function HomePage() {
       <main>
         <section id="home" className="relative overflow-hidden py-24 sm:py-32">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,_rgba(34,211,238,0.16),_transparent_35%)]" />
-          <Container>
-            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-              {portfolio.role}
-            </p>
-            <h1 className="max-w-4xl text-5xl font-bold tracking-tight text-white sm:text-7xl">
-              Hi, I&apos;m {portfolio.name}
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
-              {portfolio.tagline}
-            </p>
-            <div className="mt-9 flex flex-wrap gap-4">
-              <Button href="#projects">Explore Projects</Button>
-              <Button href={portfolio.resumeUrl} download variant="secondary">
-                Download Resume
-              </Button>
+          <Container className="grid items-center gap-12 lg:grid-cols-[1fr_auto]">
+            <div>
+              <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
+                {portfolio.role}
+              </p>
+              <h1 className="max-w-4xl text-5xl font-bold tracking-tight text-white sm:text-7xl">
+                Hi, I&apos;m {portfolio.name}
+              </h1>
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+                {portfolio.tagline}
+              </p>
+              <div className="mt-9 flex flex-wrap gap-4">
+                <Button href="#projects">Explore Projects</Button>
+                <Button href={portfolio.resumeUrl} download variant="secondary">
+                  Download Resume
+                </Button>
+              </div>
+            </div>
+            <div className="mx-auto w-56 rounded-3xl border border-cyan-400/30 bg-slate-900/60 p-2 shadow-2xl shadow-cyan-950/20 sm:w-64 lg:mx-0">
+              <img
+                src={images.profile}
+                alt={`Portrait of ${portfolio.name}`}
+                className="aspect-square w-full rounded-2xl object-cover"
+              />
             </div>
           </Container>
         </section>
