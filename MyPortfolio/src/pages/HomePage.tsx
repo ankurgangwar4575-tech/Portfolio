@@ -58,7 +58,7 @@ export function HomePage() {
 
         <section id="skills" className="py-20">
           <Container>
-            <SectionHeading eyebrow="Toolkit" title="Skills and technologies" />
+            <SectionHeading eyebrow="Toolkit" title="Skills and Technologies" />
             <div className="mt-10 grid gap-5 sm:grid-cols-2">
               {portfolio.skillGroups.map((group) => (
                 <Card key={group.title}>
@@ -85,7 +85,7 @@ export function HomePage() {
           <Container>
             <SectionHeading
               eyebrow="Selected work"
-              title="Projects"
+              title="Key Projects"
               description="A few projects that reflect how I learn, build, and solve problems."
             />
             <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -118,7 +118,7 @@ export function HomePage() {
             <Container>
               <SectionHeading
                 eyebrow="Problem solving"
-                title="Coding profiles"
+                title="Coding Profiles"
                 description="Explore my progress and practice across competitive programming platforms."
               />
               <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
