@@ -38,7 +38,7 @@ export function HomePage() {
             </div>
             <div className="mx-auto w-56 rounded-3xl border border-cyan-400/30 bg-slate-900/60 p-2 shadow-2xl shadow-cyan-950/20 sm:w-64 lg:mx-0">
               <img
-                src="/images/profile.jpg"
+                src="/images/profile.jpeg"
                 alt={`Portrait of ${portfolio.name}`}
                 className="aspect-square w-full rounded-2xl object-cover"
               />
