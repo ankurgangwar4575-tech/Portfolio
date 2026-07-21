@@ -3,9 +3,9 @@ import type { PortfolioData } from '../types/portfolio'
 export const portfolio: PortfolioData = {
   name: 'Ankur Gangwar',
   role: 'Software Developer',
-  tagline: 'I build thoughtful, reliable web experiences.',
+  tagline: 'Building scalable web applications and exploring AI-powered solutions. Passionate about creating clean, responsive, and impactful software',
   about:
-    'I am a software developer focused on building clean, accessible, and user-friendly products',
+    'I am a B.Tech student at MNNIT Allahabad passionate about software engineering, full-stack development, and AI/ML. I enjoy creating intuitive applications, learning modern technologies, and strengthening my problem-solving skills through Data Structures & Algorithms. I am always looking for opportunities to build products that make a real impact',
   location: 'India',
   email: 'ankurgangwar4575@gmail.com',
   resumeUrl: '/Resume Software2.pdf',
@@ -13,11 +13,61 @@ export const portfolio: PortfolioData = {
     { label: 'GitHub', href: 'https://github.com/ankurgangwar4575-tech' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ankur-gangwar/' },
   ],
+  codingProfiles: [ { label: 'LeetCode', href: 'https://leetcode.com/u/ankur01-02/' },
+  { label: 'CodeForces', href: 'https://codeforces.com/profile/ankur009' },
+  { label: 'CodeChef', href: 'https://www.codechef.com/users/ankur01_02' },
+  { label: 'GeeksForGeeks', href: 'https://www.geeksforgeeks.org/profile/ankur02?tab=activity' },],
   skillGroups: [
-    { title: 'Frontend', skills: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'] },
-    { title: 'Tools', skills: ['Git', 'GitHub', 'VS Code'] },
+    { title: 'Programming Languages', skills: ['C++', 'Python', 'JavaScript', 'TypeScript', 'Java'] },
+    { title: 'Frontend', skills: ['React.js', 'Tailwind CSS', 'HTML', 'CSS'] },
+    { title: 'Backend', skills: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "OAuth 2.0"
+] },
+    { title: 'Databases', skills: ['MongoDB', 'MySQL'] },
+    { title: 'Developer Tools', skills: ['Git', 'GitHub', 'VS Code', "Postman","Jupyter Notebook"] },
+    { title: 'Machine Learning', skills: ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"] },
   ],
   experience: [],
-  projects: [],
-  education: [],
+  projects: [
+    {
+      title: 'SpendSmart — Full Stack Expense Tracker',
+      description: 'Developed a comprehensive expense tracking platform with real-time budget monitoring',
+      technologies: [ "MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Google OAuth"],
+      liveUrl: 'https://spendsmart-inky-theta.vercel.app/',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/Expense-Tracker"
+    },
+    {
+      title: 'SmartCart - Customer Segmentation System',
+      description: 'Built a machine learning pipeline to segment e-commerce customers based on purchasing behavior',
+      technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+      liveUrl: 'https://smartcart-clustering.streamlit.app/',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/SmartCart-Clustering-System"
+    },
+    {
+      title: 'CreditWise - Loan Approval Prediction System',
+      description: 'Developed a machine learning classification system to predict loan approvals from applicant data',
+      technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+      liveUrl: 'https://loan-classifier.streamlit.app/',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/CreditWise-Loan-Approval-System"
+    },
+  ],
+  education: [
+    {
+      institution: 'Motilal Nehru National Institute of Technology Allahabad',
+      degree: 'Bachelor of Technology in Chemical Engineering',
+      period: '2024 — 2028',
+      score: 'CGPA : 9.17/10',
+    },
+    {
+      institution: 'New Age Public School, Bilaspur',
+      degree: 'Class XII, CBSE Board',
+      period: '2022 - 2023',
+      score: 'Percentage: 96.50%',
+    },
+    {
+      institution: 'New Age Public School, Bilaspur',
+      degree: 'Class X, CBSE Board',
+      period: '2020 - 2021',
+      score: 'Percentage: 97.16%',
+    },
+  ],
 }
