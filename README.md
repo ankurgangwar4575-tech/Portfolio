@@ -1,6 +1,6 @@
 # 🌐 Ankur Gangwar | Portfolio
 
-A modern, responsive personal portfolio website built with React, TypeScript, and Vite. This project showcases education, skills, projects, coding profiles, and contact information in a clean and professional layout.
+A modern, responsive personal portfolio website built with React, TypeScript, and Vite. This project showcases education, skills, projects, coding profiles, and contact information in a clean and professional layout
 
 ## ✨ Features
 
