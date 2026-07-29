@@ -37,6 +37,14 @@ export const portfolio: PortfolioData = {
       repoUrl: "https://github.com/ankurgangwar4575-tech/Expense-Tracker"
     },
     {
+      title: 'Digit Classifier - A full-stack web application',
+      description: 'Built a full-stack web application that recognizes handwritten digits using three trained PyTorch models: CNN, RNN, and LSTM',
+      technologies: ["React", "TypeScript", "Python", "PyTorch","FastAPI", "Deep Learning", "Vercel"],
+      image: '/images/projects/digit.png',
+      liveUrl: 'https://classifydigit.vercel.app/',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/DigitClassifier"
+    },
+    {
       title: 'SmartCart - Customer Segmentation System',
       description: 'Built a machine learning pipeline to segment e-commerce customers based on purchasing behavior',
       technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
