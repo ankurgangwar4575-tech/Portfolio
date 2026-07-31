@@ -60,6 +60,14 @@ export const portfolio: PortfolioData = {
       liveUrl: 'https://loan-classifier.streamlit.app/',
       repoUrl: "https://github.com/ankurgangwar4575-tech/CreditWise-Loan-Approval-System"
     },
+    {
+      title: 'AQI Predictor - Prediction of the Air Quality Index',
+      description: 'Developed a machine learning model to predict Air Quality Index (AQI) based on environmental data, providing insights for better air quality management',
+      technologies: ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+      image: '/images/projects/aqi.png',
+      liveUrl: 'https://aqi-predictor-sepia.vercel.app/',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/AQI-Predictor"
+    },
   ],
   education: [
     {
