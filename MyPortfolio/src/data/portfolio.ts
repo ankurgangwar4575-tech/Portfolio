@@ -36,6 +36,13 @@ export const portfolio: PortfolioData = {
       liveUrl: 'https://spendsmart-inky-theta.vercel.app/',
       repoUrl: "https://github.com/ankurgangwar4575-tech/Expense-Tracker"
     },
+      {
+      title: 'Briefly - AI Dialogue Summarizer',
+      description: 'Briefly turns long conversations, meeting notes, and chat transcripts into short, clear summaries.  It combines a fine-tuned T5 Transformer model with a polished React interface, so users can paste a dialogue and receive the essential context in seconds.',
+      technologies: ["React", "TypeScript", "Python", "Hugging Face Transformers", "T5","FastAPI","Uvicorn"],
+      image: '/images/projects/Text.png',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/TextSummarizer"
+    },
     {
       title: 'Digit Classifier - A full-stack web application',
       description: 'Built a full-stack web application that recognizes handwritten digits using three trained PyTorch models: CNN, RNN, and LSTM',

@@ -8,18 +8,21 @@ import { EducationCard } from "../components/ui/EducationCard";
 import { ProjectCard } from "../components/ui/ProjectCard";
 import { ScrollToTop } from "../components/ui/ScrollToTop";
 import { SectionHeading } from "../components/ui/SectionHeading";
+import { AnimatedBackground } from "../components/ui/AnimatedBackground";
+import { Reveal } from "../components/ui/Reveal";
 import { portfolio } from "../data/portfolio";
 
 export function HomePage() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div className="min-h-screen overflow-x-clip text-slate-100">
+      <AnimatedBackground />
       <Navbar />
 
       <main>
         <section id="home" className="relative overflow-hidden py-24 sm:py-32">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,_rgba(34,211,238,0.16),_transparent_35%)]" />
-          <Container className="grid items-center gap-12 lg:grid-cols-[1fr_auto]">
-            <div>
+          <Container className="relative grid items-center gap-12 lg:grid-cols-[1fr_auto]">
+            <Reveal>
               <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
                 {portfolio.role}
               </p>
@@ -35,29 +38,31 @@ export function HomePage() {
                   Download Resume
                 </Button>
               </div>
-            </div>
-            <div className="mx-auto w-56 rounded-3xl border border-cyan-400/30 bg-slate-900/60 p-2 shadow-2xl shadow-cyan-950/20 sm:w-64 lg:mx-0">
+            </Reveal>
+            <Reveal delay={180} className="mx-auto lg:mx-0">
+              <div className="profile-frame w-56 sm:w-64">
               <img
                 src="/images/profile.jpeg"
                 alt={`Portrait of ${portfolio.name}`}
                 className="aspect-square w-full rounded-2xl object-cover"
               />
-            </div>
+              </div>
+            </Reveal>
           </Container>
         </section>
 
         <section id="about" className="py-20">
-          <Container>
+          <Container><Reveal>
             <SectionHeading
               eyebrow="About me"
               title="Building software that solves real problems"
               description={portfolio.about}
             />
-          </Container>
+          </Reveal></Container>
         </section>
 
         <section id="skills" className="py-20">
-          <Container>
+          <Container><Reveal>
             <SectionHeading eyebrow="Toolkit" title="Skills and Technologies" />
             <div className="mt-10 grid gap-5 sm:grid-cols-2">
               {portfolio.skillGroups.map((group) => (
@@ -78,11 +83,11 @@ export function HomePage() {
                 </Card>
               ))}
             </div>
-          </Container>
+          </Reveal></Container>
         </section>
 
         <section id="projects" className="py-20">
-          <Container>
+          <Container><Reveal>
             <SectionHeading
               eyebrow="Selected work"
               title="Key Projects"
@@ -93,10 +98,10 @@ export function HomePage() {
                 <ProjectCard key={project.title} project={project} />
               ))}
             </div>
-          </Container>
+          </Reveal></Container>
         </section>
         <section id="education" className="py-20">
-          <Container>
+          <Container><Reveal>
             <SectionHeading
               eyebrow="Academic background"
               title="Education"
@@ -110,12 +115,12 @@ export function HomePage() {
                 />
               ))}
             </div>
-          </Container>
+          </Reveal></Container>
         </section>
 
         {portfolio.codingProfiles.length > 0 && (
           <section id="profiles" className="py-20">
-            <Container>
+            <Container><Reveal>
               <SectionHeading
                 eyebrow="Problem solving"
                 title="Coding Profiles"
@@ -131,12 +136,12 @@ export function HomePage() {
                   </Card>
                 ))}
               </div>
-            </Container>
+            </Reveal></Container>
           </section>
         )}
 
         <section id="contact" className="py-20">
-          <Container>
+          <Container><Reveal>
             <Card className="border-cyan-400/20 text-center">
               <SectionHeading
                 align="center"
@@ -145,7 +150,7 @@ export function HomePage() {
               />
               <ContactForm />
             </Card>
-          </Container>
+          </Reveal></Container>
         </section>
       </main>
 
