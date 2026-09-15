@@ -44,6 +44,20 @@ export const portfolio: PortfolioData = {
       repoUrl: "https://github.com/ankurgangwar4575-tech/TextSummarizer"
     },
     {
+      title: 'Mario Playing Agent - A Double Deep Q-Learning Agent',
+      description: 'An AI agent that learns to play Super Mario Bros from stacked grayscale game frames using Double Deep Q-Learning (Double DQN)',
+      technologies: ["Python", "PyTorch", "Deep Reinforcement Learning"],
+      image: '/images/projects/mario.png',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/MarioPlayingAgent"
+    },
+    {
+      title: 'Flappy Bird - A reinforcement-learning project ',
+      description: 'A reinforcement-learning project that trains a Deep Q-Network (DQN) agent to play Flappy Bird using PyTorch and Gymnasium',
+      technologies: ["Python", "PyTorch", "Deep Reinforcement Learning"],
+      image: '/images/projects/flappy.png',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/FlappyBird"
+    },
+    {
       title: 'Digit Classifier - A full-stack web application',
       description: 'Built a full-stack web application that recognizes handwritten digits using three trained PyTorch models: CNN, RNN, and LSTM',
       technologies: ["React", "TypeScript", "Python", "PyTorch","FastAPI", "Deep Learning", "Vercel"],
