@@ -29,6 +29,14 @@ export const portfolio: PortfolioData = {
   experience: [],
   projects: [
     {
+      title: 'E-Commerce Growth Analytics',
+      description: 'Co-developed an end-to-end machine learning platform and business intelligence dashboard for E-Commerce analytics',
+      technologies: ["Python", "Scikit-learn", "LightGBM", "FastAPI", "React", "Tailwind CSS"],
+      image: '/images/projects/e-commerce.png',
+      liveUrl: 'https://saless-analyticss.vercel.app',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/E-Commerce-Sales-Analytics"
+    },
+    {
       title: 'SpendSmart — Full Stack Expense Tracker',
       description: 'Developed a comprehensive expense tracking platform with real-time budget monitoring',
       technologies: [ "MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Google OAuth"],
