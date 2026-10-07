@@ -5,7 +5,7 @@ export const portfolio: PortfolioData = {
   role: 'Software Developer',
   tagline: 'Building scalable web applications and exploring AI-powered solutions. Passionate about creating clean, responsive, and impactful software',
   about:
-    'I am a B.Tech student at MNNIT Allahabad passionate about software engineering, full-stack development, and AI/ML. I enjoy creating intuitive applications, learning modern technologies, and strengthening my problem-solving skills through Data Structures & Algorithms. I am always looking for opportunities to build products that make a real impact',
+    'I am a B.Tech third year student at MNNIT Allahabad passionate about software engineering, full-stack development, and AI/ML. I enjoy creating intuitive applications, learning modern technologies, and strengthening my problem-solving skills through Data Structures & Algorithms. I am always looking for opportunities to build products that make a real impact',
   location: 'India',
   email: 'ankurgangwar4575@gmail.com',
   resumeUrl: '/Resume Software2.pdf',
