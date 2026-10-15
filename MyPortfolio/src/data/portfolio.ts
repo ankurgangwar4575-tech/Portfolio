@@ -24,7 +24,7 @@ export const portfolio: PortfolioData = {
 ] },
     { title: 'Databases', skills: ['MongoDB', 'MySQL'] },
     { title: 'Developer Tools', skills: ['Git', 'GitHub', 'VS Code', "Postman","Jupyter Notebook"] },
-    { title: 'Machine Learning', skills: ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"] },
+    { title: 'Machine Learning', skills: ["Scikit-learn","PyTorch", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"] },
   ],
   experience: [],
   projects: [
