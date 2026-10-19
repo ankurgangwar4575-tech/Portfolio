@@ -45,6 +45,14 @@ export const portfolio: PortfolioData = {
       repoUrl: "https://github.com/ankurgangwar4575-tech/Expense-Tracker"
     },
       {
+      title: 'Personal AI ChatBot',
+      description: 'A lightweight web-based personal assistant built with Flask and Google Gemini',
+      technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript","OpenAI Python Client","Google Gemini API Key"],
+      image: '/images/projects/chatbot.png',
+      liveUrl: 'https://personal-ai-chatbot-1-6nq6.onrender.com',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/Personal-AI-ChatBot"
+    },
+      {
       title: 'Briefly - AI Dialogue Summarizer',
       description: 'Briefly turns long conversations, meeting notes, and chat transcripts into short, clear summaries.  It combines a fine-tuned T5 Transformer model with a polished React interface, so users can paste a dialogue and receive the essential context in seconds.',
       technologies: ["React", "TypeScript", "Python", "Hugging Face Transformers", "T5","FastAPI","Uvicorn"],
