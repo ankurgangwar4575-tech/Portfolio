@@ -18,7 +18,7 @@ export const portfolio: PortfolioData = {
   { label: 'CodeChef', href: 'https://www.codechef.com/users/ankur01_02' },
   { label: 'GeeksForGeeks', href: 'https://www.geeksforgeeks.org/profile/ankur02?tab=activity' },],
   skillGroups: [
-    { title: 'Programming Languages', skills: ['C++', 'Python', 'JavaScript', 'TypeScript', 'Java'] },
+    { title: 'Programming Languages', skills: ['C++', 'Python', 'JavaScript', 'TypeScript', 'Java', "SQL"] },
     { title: 'Frontend', skills: ['React.js', 'Tailwind CSS', 'HTML', 'CSS'] },
     { title: 'Backend', skills: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "OAuth 2.0"
 ] },
