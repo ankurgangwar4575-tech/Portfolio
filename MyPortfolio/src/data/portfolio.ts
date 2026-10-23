@@ -45,6 +45,14 @@ export const portfolio: PortfolioData = {
       repoUrl: "https://github.com/ankurgangwar4575-tech/Expense-Tracker"
     },
       {
+      title: "Framewise — AI YouTube Video Analyzer",
+      description: 'Framewise turns a YouTube video link into a structured, easy-to-scan briefing',
+      technologies: ["Python", "Streamlit","Google Gemini", "Youtube Transcript API", "Python dotenv"],
+      image: '/images/projects/ai-analyzer.png',
+      liveUrl: 'https://video-analyyzer.streamlit.app/',
+      repoUrl: "https://github.com/ankurgangwar4575-tech/AI-Video-Analyzer"
+    },
+      {
       title: 'Personal AI ChatBot',
       description: 'A lightweight web-based personal assistant built with Flask and Google Gemini',
       technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript","OpenAI Python Client","Google Gemini API Key"],
