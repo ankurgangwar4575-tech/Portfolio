@@ -80,6 +80,29 @@ code,
   opacity: 0.5;
 }
 
+.interest-card {
+  position: relative;
+  isolation: isolate;
+  background: linear-gradient(135deg, rgba(14, 116, 144, 0.2), rgba(30, 41, 59, 0.58) 55%, rgba(79, 70, 229, 0.2));
+}
+
+.interest-card::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 9rem;
+  height: 9rem;
+  right: -3rem;
+  top: -4.5rem;
+  border: 1px solid rgba(103, 232, 249, 0.32);
+  border-radius: 999px;
+  box-shadow: 0 0 55px rgba(34, 211, 238, 0.18);
+  transition: transform 400ms ease;
+}
+
+.interest-card:hover::before { transform: scale(1.45); }
+.interest-number { position: absolute; top: 0.65rem; right: 1rem; color: rgba(103, 232, 249, 0.55); font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.78rem; }
+
 @keyframes float { 0%, 100% { transform: translate3d(0, 0, 0); } 50% { transform: translate3d(0, -22px, 0); } }
 @keyframes cube-float { 0%, 100% { transform: translate3d(0, 0, 0) rotate(25deg) skew(-8deg); } 50% { transform: translate3d(-18px, -30px, 0) rotate(110deg) skew(-8deg); } }
 @keyframes drift { from { transform: translate3d(-4%, -2%, 0) scale(0.9); } to { transform: translate3d(9%, 8%, 0) scale(1.12); } }

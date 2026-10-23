@@ -26,6 +26,23 @@ export const portfolio: PortfolioData = {
     { title: 'Developer Tools', skills: ['Git', 'GitHub', 'VS Code', "Postman","Jupyter Notebook"] },
     { title: 'Machine Learning', skills: ["Scikit-learn","PyTorch", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit", "Joblib"] },
   ],
+  areasOfInterest: [
+    'AI & ML',
+    'Data Science',
+    'Deep Learning',
+    'Neural Network Architectures',
+    'Transformers',
+    'LLMs',
+    'Generative AI',
+    'Agentic AI',
+    'Software Development',
+    'Object Oriented Programming',
+    'Operating Systems',
+    'Database Management Systems',
+    'Data Structures & Algorithms',
+    'Web Development',
+    'Competitive Programming'
+  ],
   experience: [],
   projects: [
     {

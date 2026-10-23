@@ -43,6 +43,7 @@ export type PortfolioData = {
   socialLinks: SocialLink[]
   codingProfiles: SocialLink[]
   skillGroups: SkillGroup[]
+  areasOfInterest: string[]
   experience: Experience[]
   projects: Project[]
   education: Education[]

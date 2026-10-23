@@ -6,6 +6,7 @@ import { Container } from "./Container";
 const navItems = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
+  { label: "Interests", href: "#interests" },
   { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
   ...(portfolio.codingProfiles.length > 0

@@ -86,6 +86,24 @@ export function HomePage() {
           </Reveal></Container>
         </section>
 
+        <section id="interests" className="py-20">
+          <Container><Reveal>
+            <SectionHeading
+              eyebrow="What I explore"
+              title="Areas of Interest"
+              description="The fields and technologies I am excited to explore more deeply."
+            />
+            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {portfolio.areasOfInterest.map((interest, index) => (
+                <Card key={interest} className="interest-card flex min-h-32 items-end overflow-hidden p-5">
+                  <span className="interest-number">0{index + 1}</span>
+                  <h3 className="relative z-10 text-xl font-semibold text-white">{interest}</h3>
+                </Card>
+              ))}
+            </div>
+          </Reveal></Container>
+        </section>
+
         <section id="projects" className="py-20">
           <Container><Reveal>
             <SectionHeading
